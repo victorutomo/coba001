@@ -8,5 +8,10 @@ namespace BelajarGit
     class CGlobal
     {
         public string Nama { get; set; }
+
+        public void Write()
+        {
+            Console.WriteLine("Victor");
+        }
     }
 }
